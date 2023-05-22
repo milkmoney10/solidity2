@@ -1,0 +1,41 @@
+make new dir
+make env 
+pip install -U pip
+pip install eth-ape
+pip install ape-template
+
+ape template gh:ApeAcademy/ERC20 (gh:<github org>/<project>)
+ape template -h (to list all commands)
+cd <NewProjectDirectory>
+ape plugins install -U .
+npm install --save-dev hardhat
+ape test
+##when testing, may need to specify network. ape test --network ethereum:local:test
+##get network list ape networks list
+
+accounts:
+nano ~/.bashrc
+add to bottom: export WEB3_ALCHEMY_PROJECT_ID=123XYZ
+source ~/.bashrc
+ape accounts generate "test"
+ape accounts import <ACCOUNT_NAME> (do need eth tokens to deploy/send tx/etc.)
+
+
+e290 passphrase: e290
+0xf9167c97796d596854b829d3F1cB7D338b28e290
+
+deployment:
+set up accounts https://academy.apeworx.io/articles/deploy-a-contract
+
+ape plugins install alchemy (if using alchemy for ape console--network ethereum:goerli:alchemy)
+
+
+mnemonic : hurt heavy ivory game tornado hungry decorate main avocado twist bleak kit
+passphrase: asdfasdf
+SUCCESS: A new account '0xbe70306FB7F0E887B9bDa3F763A396f479E43F10' with HDPath m/44'/60'/0'/0/0 has been added with the id 'test'
+
+to symlink the ABI:
+
+go to src directory
+ln -s <full_path_of_abi> .
+import <localData> from <'./abi.json'>;

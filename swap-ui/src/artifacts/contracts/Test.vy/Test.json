@@ -1,0 +1,10 @@
+{
+  "_format": "hh-vyper-artifact-1",
+  "contractName": "Test",
+  "sourceName": "contracts/Test.vy",
+  "abi": [],
+  "bytecode": "0x61000d61000f60003961000d6000f3a165767970657283000307000b",
+  "deployedBytecode": "0xa165767970657283000307000b",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

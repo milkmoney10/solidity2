@@ -1,0 +1,29 @@
+{
+  "_format": "hh-vy-cache-1",
+  "files": {
+    "/home/kremer/Documents/ape2/Test/contracts/Test.vy": {
+      "lastModificationDate": 1683963651050,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "contracts/Test.vy",
+      "vyperConfig": {
+        "version": "0.3.7"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "Test"
+      ]
+    },
+    "/home/kremer/Documents/ape2/Test/contracts/Test2.vy": {
+      "lastModificationDate": 1683958756332,
+      "contentHash": "309b03915b1cb603ef1f568ac2092760",
+      "sourceName": "contracts/Test2.vy",
+      "vyperConfig": {
+        "version": "0.3.7"
+      },
+      "versionPragma": "*",
+      "artifacts": [
+        "Test2"
+      ]
+    }
+  }
+}

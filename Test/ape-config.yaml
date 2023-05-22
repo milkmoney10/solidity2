@@ -1,0 +1,19 @@
+name: Test
+plugins:
+  - name: vyper
+  - name: hardhat
+  - name: alchemy
+  - name: etherscan
+
+# if you installed hardhat for the first time
+# cd into your Test 
+# npm install --save-dev hardhat
+
+ethereum:
+  default_network: mainnet-fork
+
+hardhat:
+  fork:
+    ethereum:
+      mainnet:
+        upstream_provider: alchemy  
